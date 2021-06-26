@@ -11,6 +11,24 @@
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
-    </properties>
+    </properties>e
+
+    <dependency>
+        <groupId>org.glassfish.jersey.core</groupId>
+        <artifactId>jersey-server</artifactId>
+        <version>2.32</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.jersey.containers</groupId>
+        <artifactId>jersey-container-jdk-http</artifactId>
+        <version>2.32</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.jersey.inject</groupId>
+        <artifactId>jersey-hk2</artifactId>
+        <version>2.32</version>
+    </dependency>
 
 </project>
